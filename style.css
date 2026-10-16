@@ -11,4 +11,10 @@
 .portrait .thumbnails img{aspect-ratio:3/4;object-fit:contain}
 .store-links{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .store-links .project-link{gap:10px}
+.achievements{margin:22px 0;padding:17px 18px;border-left:2px solid var(--green);background:#1b231c;border-radius:0 4px 4px 0}
+.project .achievements h4{margin:0 0 10px;color:var(--text)}
+.achievements ul{margin:0;padding-left:17px;color:var(--muted);font-size:13px;line-height:1.7}
+.achievements li+li{margin-top:7px}
+.achievements li::marker{color:var(--green)}
+.achievements strong{color:var(--green);font-weight:600}
 @media(max-width:720px){.project-media.portrait>a{height:440px}.store-links{gap:15px}}
